@@ -1,0 +1,51 @@
+/* .todoListForm{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    position: absolute;
+    bottom: 2px;
+}
+.todoListFormBtn{
+    width: 20%;
+}
+.todoListFormInput{
+    width: 70%;
+} */
+
+.todoListForm{
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-right: 0px;
+    border-radius: 20px;
+}
+.todoListForm input{
+    color: black;
+    background-color: white;
+    width: 60%;
+    border: 0px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+.todoListForm button{
+    transition: 0.5s;
+    color: white;
+    float: right;
+    width: 30%;
+    border: 0px;
+    background-color: black;
+    border-radius: 20px;
+    border-right: 2px solid grey;
+    font-size: 32px;
+}
+.todoListForm button:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: inset 1px 0px 3px 1px black;
+}
+.todoListForm button:active{
+    color: white;
+    transition: 0.2s;
+    background-color: black;
+    box-shadow: inset 1px 0px 3px 1px white;
+}
